@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   description: "邮箱查找与数据丰富的最佳实践与指南",
   alternates: { canonical: "/" },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: [{ url: "/favicon.ico?v=20251211", type: "image/x-icon" }],
+    shortcut: [{ url: "/favicon.ico?v=20251211" }],
+    apple: [{ url: "/favicon.ico?v=20251211" }],
   },
   openGraph: {
     type: "website",
