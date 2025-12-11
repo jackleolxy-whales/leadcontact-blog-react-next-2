@@ -82,6 +82,8 @@ export default function RootLayout({
             gtag('config', 'G-Z57ZGZBS7X');
           `}
         </Script>
+        <link rel="icon" href="/favicon.ico?v=20251211" />
+        <link rel="shortcut icon" href="/favicon.ico?v=20251211" />
       </head>
       <body className={`${montserrat.variable} antialiased`}>
         <Header />
