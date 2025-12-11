@@ -82,7 +82,7 @@ export default async function BlogListPage({ searchParams }: { searchParams?: Pr
     <div className="page">
       <section className="hero container">
         <h1 className="heroTitle">
-          <span className="strong">Insights & Updates:</span>
+          <span className="strong">Insights & Updates</span>
           <span className="strong">Explore Our Latest Blog Posts</span>
         </h1>
       </section>
