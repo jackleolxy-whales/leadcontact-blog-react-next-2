@@ -8,123 +8,123 @@
     "tags": ["LinkedIn", "Email", "LeadContact"]
   },
   {
-    "title": "How to find someone on LinkedIn by email address",
+    "title": "Find LinkedIn Profiles by Email Address (Single and Bulk Methods)",
     "slug": "how-to-find-someone-on-linkedin-by-email-address",
     "date": "2025-12-01",
-    "excerpt": "Find LinkedIn profiles from email via single or bulk methods.",
+    "excerpt": "Use LeadContact and search workflows to locate LinkedIn profiles from email data — single lookups and scalable bulk enrichment.",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["LinkedIn", "Email", "Search"]
+    "tags": ["LinkedIn", "Email", "Search", "LeadContact"]
   },
   {
-    "title": "Migrating product workflows",
+    "title": "Migrating Product Workflows: Streamlined Sprints, Tasks, and Tracking",
     "slug": "migrating-product-workflows",
     "date": "2025-11-26",
-    "excerpt": "Streamline sprints, tasks, and tracking.",
+    "excerpt": "Plan and execute workflow migrations without friction — unify sprints, tasks, and tracking for faster delivery with LeadContact‑integrated processes.",
     "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Workflow", "Product"]
+    "tags": ["Workflow", "Product", "LeadContact"]
   },
   {
-    "title": "Leadership lessons that scale",
+    "title": "Leadership Lessons That Scale: Principles to Transform Teams Fast",
     "slug": "leadership-lessons-that-scale",
     "date": "2025-11-21",
-    "excerpt": "Principles to transform teams and ship faster.",
+    "excerpt": "Actionable leadership patterns to ship faster and improve collaboration — grounded in growth experimentation and data‑driven practices.",
     "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Leadership", "Growth"]
+    "tags": ["Leadership", "Growth", "LeadContact"]
   },
   {
-    "title": "Boost your PM workflow",
+    "title": "Boost Your PM Workflow: Practical Systems and Mental Models",
     "slug": "boost-your-pm-workflow",
     "date": "2025-11-16",
-    "excerpt": "Mental models are powerful for decision-making.",
+    "excerpt": "Apply robust frameworks to improve decisions, reduce thrash, and keep teams aligned — templates and routines that actually stick.",
     "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["PM", "Workflow"]
+    "tags": ["PM", "Workflow", "LeadContact"]
   },
   {
-    "title": "Email extractor tips and best practices",
+    "title": "Email Extractor Tips and Best Practices for Better Lead Capture",
     "slug": "email-extractor-tips-and-best-practices",
     "date": "2025-11-11",
-    "excerpt": "Practical steps to improve your lead capture.",
+    "excerpt": "Improve capture quality with verification, formatting, and consent workflows — build reliable email lists ready for outreach.",
     "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Email", "Extractor", "Best Practices"]
+    "tags": ["Email", "Extractor", "Best Practices", "LeadContact"]
   },
   {
-    "title": "How to use the promo code for LinkedIn Email Finder by LinkedCRM?",
+    "title": "How to Use the Promo Code for LinkedIn Email Finder (LinkedCRM)",
     "slug": "how-to-use-the-promo-code-for-linkedin-email-finder-by-linkedcrm",
     "date": "2025-11-06",
-    "excerpt": "Here's Your VIP Discount Code",
+    "excerpt": "Step‑by‑step to redeem your VIP discount code and boost your LinkedIn email lookup efficiency — terms, tips, and example flows.",
     "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["LinkedIn", "Promo", "Email"]
+    "tags": ["LinkedIn", "Promo", "Email", "LeadContact"]
   },
   {
-    "title": "Unlock New Possibilities with Integration LinkedCRM and HubSpot",
+    "title": "Unlock New Possibilities: Integrate LinkedCRM with HubSpot for Growth",
     "slug": "unlock-new-possibilities-with-integration-linkedcrm-and-hubspot",
     "date": "2025-11-01",
-    "excerpt": "🎉 LinkedCRM + HubSpot = 🚀 🎉",
+    "excerpt": "Connect LinkedCRM and HubSpot to streamline enrichment, syncing, and follow‑ups — faster pipelines, cleaner data, better outcomes.",
     "image": "/assets/card-1-2afd70.png",
-    "tags": ["Integration", "HubSpot", "LinkedCRM"]
+    "tags": ["Integration", "HubSpot", "LinkedCRM", "LeadContact"]
   },
   {
-    "title": "Growth experiments that work",
+    "title": "Growth Experiments That Work: Practical Tests for Efficient Scaling",
     "slug": "growth-experiments-that-work",
     "date": "2025-10-28",
-    "excerpt": "Practical experiments to grow efficiently.",
-    "image": "https://images.unsplash.com/photo-1543294001-9e0a16bb7366?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Growth", "Experiments"]
+    "excerpt": "A playbook of experiments that prioritize impact and speed — get repeatable wins while keeping the stack lean.",
+    "image": "/assets/card-1-2afd70.png",
+    "tags": ["Growth", "Experiments", "LeadContact"]
   },
   {
-    "title": "Optimize your outreach email",
+    "title": "Optimize Your Outreach Email: Subject Lines, Structure, Personalization",
     "slug": "optimize-your-outreach-email",
     "date": "2025-10-24",
-    "excerpt": "Subject lines, structure, and personalization tips.",
-    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Email", "Outreach"]
+    "excerpt": "Craft high‑performing outreach emails — proven subject lines, clean structure, and personalization cues that drive replies.",
+    "image": "/assets/card-1-2afd70.png",
+    "tags": ["Email", "Outreach", "LeadContact"]
   },
   {
-    "title": "Data enrichment playbook",
+    "title": "Data Enrichment Playbook: Turn Raw Leads into Actionable Records",
     "slug": "data-enrichment-playbook",
     "date": "2025-10-20",
-    "excerpt": "Turn raw leads into actionable records.",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Data", "Enrichment"]
+    "excerpt": "Standardize inputs, enrich with firmographics and socials, and validate contacts — build datasets that accelerate outreach.",
+    "image": "/assets/card-1-2afd70.png",
+    "tags": ["Data", "Enrichment", "LeadContact"]
   },
   {
-    "title": "Automations that save hours",
+    "title": "Automations That Save Hours: Small Workflows, Big Impact",
     "slug": "automations-that-save-hours",
     "date": "2025-10-16",
-    "excerpt": "Small workflows, big impact.",
+    "excerpt": "Automate repetitive steps across sourcing, validation, and follow‑ups — stack patterns that reclaim time every week.",
     "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Automation", "Workflow"]
+    "tags": ["Automation", "Workflow", "LeadContact"]
   },
   {
-    "title": "Improve list quality",
+    "title": "Improve List Quality: De‑Duplication, Verification, Segmentation",
     "slug": "improve-list-quality",
     "date": "2025-10-12",
-    "excerpt": "De-duplication, verification, and segmentation.",
+    "excerpt": "Clean lists lead to better outcomes — remove duplicates, verify emails, and segment by intent for precise outreach.",
     "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["List", "Quality"]
+    "tags": ["List", "Quality", "LeadContact"]
   },
   {
-    "title": "From cold to warm",
+    "title": "From Cold to Warm: Nurture Sequences That Actually Convert",
     "slug": "from-cold-to-warm",
     "date": "2025-10-08",
-    "excerpt": "Nurture sequences that convert.",
-    "image": "https://images.unsplash.com/photo-1543269865-ef7fbc0729b8?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Nurture", "Sequences"]
+    "excerpt": "Design multi‑touch sequences that move prospects from cold to engaged — timing, messaging, and content that earn trust.",
+    "image": "/assets/card-1-2afd70.png",
+    "tags": ["Nurture", "Sequences", "LeadContact"]
   },
   {
-    "title": "Build better prospect lists",
+    "title": "Build Better Prospect Lists: Find Ideal Customers Faster",
     "slug": "build-better-prospect-lists",
     "date": "2025-10-04",
-    "excerpt": "Find ideal customers faster.",
+    "excerpt": "Define your ICP, source high‑fit accounts, and prioritize contacts — a practical guide to list building that performs.",
     "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Prospecting", "ICP"]
+    "tags": ["Prospecting", "ICP", "LeadContact"]
   },
   {
-    "title": "Write messages that get replies",
+    "title": "Write Messages That Get Replies: Simple Frameworks That Work",
     "slug": "write-messages-that-get-replies",
     "date": "2025-10-01",
-    "excerpt": "Simple frameworks to boost response rates.",
+    "excerpt": "Use concise structures, clear CTAs, and credible context — message templates and variations to lift response rates.",
     "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&q=80&w=1200",
-    "tags": ["Messaging", "Response"]
+    "tags": ["Messaging", "Response", "LeadContact"]
   }
 ]

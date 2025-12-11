@@ -64,7 +64,7 @@ export default async function BlogListPage({ searchParams }: { searchParams?: Pr
   const start = (current - 1) * pageSize
   const end = start + pageSize
   const pagePosts = filtered.slice(start, end)
-  const recentPosts = allPosts.slice(0, 3)
+  const recentPosts = allPosts.slice(0, 4)
   const buildPages = (curr: number, total: number) => {
     if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1)
     const pages: (number | '…')[] = []
@@ -90,47 +90,67 @@ export default async function BlogListPage({ searchParams }: { searchParams?: Pr
       <main className="container">
         <section className="section">
           <h2 className="sectionTitle">Recent blog posts</h2>
-          <div className="grid">
-          {recentPosts.map((post, i) => (
-            <article key={post.slug} className="card">
-            <Link
-              className="thumb"
-              href={`/blog/${post.slug}`}
-              aria-label={`Read more: ${post.title}`}
-              title={`Read more: ${post.title}`}
-            >
-              <Image
-                src={post.image}
-                alt={post.title}
-                fill
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                style={{ objectFit: 'cover' }}
-              />
-            </Link>
-            <div className="content contentMin">
-              <div className="info">
-                <span className="time">{formatDate(post.date)}</span>
-                <div className="author">
-                  <Image src="/assets/logo-56586a.png" alt="LeadContact" width={24} height={24} className="authorAvatar" />
-                  <span className="authorName">{authorNames[i % authorNames.length]}</span>
+          {recentPosts[0] && (
+            <div className="featured">
+              <div className="featuredLeft">
+                <Link className="featuredThumb" href={`/blog/${recentPosts[0].slug}`} aria-label={`Read more: ${recentPosts[0].title}`} title={`Read more: ${recentPosts[0].title}`}>
+                  <Image src={recentPosts[0].image} alt={recentPosts[0].title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
+                </Link>
+              </div>
+              <div className="featuredRight">
+                <h3 className="featuredTitle">
+                  <Link href={`/blog/${recentPosts[0].slug}`} aria-label={`Read more: ${recentPosts[0].title}`} title={`Read more: ${recentPosts[0].title}`}>
+                    <span>{recentPosts[0].title}</span>
+                  </Link>
+                </h3>
+                <Link className="featuredExcerpt" href={`/blog/${recentPosts[0].slug}`} aria-label={`Read more: ${recentPosts[0].title}`} title={`Read more: ${recentPosts[0].title}`}>
+                  {recentPosts[0].excerpt}
+                </Link>
+                <div className="info">
+                  <span className="time">{formatDate(recentPosts[0].date)}</span>
+                  <div className="author">
+                    <Image src="/assets/logo-56586a.png" alt="LeadContact" width={24} height={24} className="authorAvatar" />
+                    <span className="authorName">{authorNames[0]}</span>
+                  </div>
+                </div>
+                <div data-ws-track="BlogReadMoreButtonClick">
+                  <Link href={`/blog/${recentPosts[0].slug}`} className="btnDark" aria-label={`Read more: ${recentPosts[0].title}`} title={`Read more: ${recentPosts[0].title}`}>
+                    Read more
+                  </Link>
                 </div>
               </div>
-              <h3 className="title">
-                <Link href={`/blog/${post.slug}`} aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
-                  <span>{post.title}</span>
-                </Link>
-              </h3>
-              <Link className="excerpt" href={`/blog/${post.slug}`} aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
-                {post.excerpt}
-              </Link>
-              <div data-ws-track="BlogReadMoreButtonClick">
-                <Link href={`/blog/${post.slug}`} className="btnDark" aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
-                  Read more
-                </Link>
-              </div>
             </div>
-          </article>
-          ))}
+          )}
+          <div className="grid">
+            {recentPosts.slice(1).map((post, i) => (
+              <article key={post.slug} className="card">
+                <Link className="thumb" href={`/blog/${post.slug}`} aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
+                  <Image src={post.image} alt={post.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
+                </Link>
+                <div className="content contentMin">
+                  <div className="info">
+                    <span className="time">{formatDate(post.date)}</span>
+                    <div className="author">
+                      <Image src="/assets/logo-56586a.png" alt="LeadContact" width={24} height={24} className="authorAvatar" />
+                      <span className="authorName">{authorNames[i + 1]}</span>
+                    </div>
+                  </div>
+                  <h3 className="title">
+                    <Link href={`/blog/${post.slug}`} aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
+                      <span>{post.title}</span>
+                    </Link>
+                  </h3>
+                  <Link className="excerpt" href={`/blog/${post.slug}`} aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
+                    {post.excerpt}
+                  </Link>
+                  <div data-ws-track="BlogReadMoreButtonClick">
+                    <Link href={`/blog/${post.slug}`} className="btnDark" aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
+                      Read more
+                    </Link>
+                  </div>
+                </div>
+              </article>
+            ))}
           </div>
         </section>
 
