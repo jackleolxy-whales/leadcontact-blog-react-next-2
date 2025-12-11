@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     default: "LeadContact Blog",
     template: "%s | LeadContact Blog",
   },
-  description: "邮箱查找与数据丰富的最佳实践与指南",
+  description: "Find verified emails, phone numbers & decision-makers — perfect for sales prospecting, lead generation & recruiting.",
   alternates: { canonical: "/" },
   icons: {
     icon: [{ url: "/favicon.ico?v=20251211", type: "image/x-icon" }],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "LeadContact Blog",
-    description: "邮箱查找与数据丰富的最佳实践与指南",
+    description: "Find verified emails, phone numbers & decision-makers — perfect for sales prospecting, lead generation & recruiting.",
   },
   robots: {
     index: true,
