@@ -1,0 +1,73 @@
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #111827;
+  --color-muted: #4B5563;
+  --color-muted-500: #6B7280;
+  --color-border: #E5E7EB;
+  --color-primary: #3b82f6;
+  --color-primary-press: #1d4ed8;
+  --color-success: #22c55e;
+  --color-success-bg: #dcfce7;
+  --color-warning: #f59e0b;
+  --color-warning-bg: #fef3c7;
+  --color-error: #ef4444;
+  --color-error-bg: #fee2e2;
+  --focus-ring-color: var(--color-primary);
+  --focus-ring-size: 2px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 48px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+
+  --font-family-sans: Montserrat, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-18: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --line-height-xs: 16px;
+  --line-height-sm: 20px;
+  --line-height-md: 24px;
+  --line-height-28: 28px;
+  --line-height-lg: 28px;
+  --line-height-xl: 32px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --z-nav: 10;
+  --z-overlay: 1000;
+  --z-modal: 1100;
+
+  --duration-1: 100ms;
+  --duration-2: 160ms;
+  --duration-3: 240ms;
+}
+
+[data-theme="dark"] {
+  --color-bg: #0b0f14;
+  --color-fg: #e6edf3;
+  --color-muted: #9ba4b5;
+  --color-primary: #60a5fa;
+  --color-primary-press: #2563eb;
+  --color-border: #1f2937;
+  --color-success: #4ade80;
+  --color-success-bg: #14532d;
+  --color-warning: #fbbf24;
+  --color-warning-bg: #78350f;
+  --color-error: #f87171;
+  --color-error-bg: #7f1d1d;
+}
