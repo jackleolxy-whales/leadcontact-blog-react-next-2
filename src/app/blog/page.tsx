@@ -12,19 +12,19 @@ const firstImageAbs = firstImage
 
 export const metadata: Metadata = {
   title: 'LeadContact Blog',
-  description: 'LeadContact Blog 分享邮箱查找、数据丰富与增长工作流的精选内容。',
+  description: 'Find verified emails, phone numbers & decision-makers — perfect for sales prospecting, lead generation & recruiting.',
   alternates: { canonical: '/blog' },
   openGraph: {
     type: 'website',
     title: 'LeadContact Blog',
-    description: 'LeadContact Blog 分享邮箱查找、数据丰富与增长工作流的精选内容。',
+    description: 'Find verified emails, phone numbers & decision-makers — perfect for sales prospecting, lead generation & recruiting.',
     url: '/blog',
     images: firstImageAbs ? [{ url: firstImageAbs }] : undefined,
   },
   twitter: {
     card: 'summary_large_image',
     title: 'LeadContact Blog',
-    description: 'LeadContact Blog 分享邮箱查找、数据丰富与增长工作流的精选内容。',
+    description: 'Find verified emails, phone numbers & decision-makers — perfect for sales prospecting, lead generation & recruiting.',
     images: firstImageAbs ? [firstImageAbs] : undefined,
   },
 }
