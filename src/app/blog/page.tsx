@@ -123,9 +123,11 @@ export default async function BlogListPage({ searchParams }: { searchParams?: Pr
               <Link className="excerpt" href={`/blog/${post.slug}`} aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
                 {post.excerpt}
               </Link>
-              <Link href={`/blog/${post.slug}`} className="btnDark" aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
-                Read more
-              </Link>
+              <div data-ws-track="BlogReadMoreButtonClick">
+                <Link href={`/blog/${post.slug}`} className="btnDark" aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
+                  Read more
+                </Link>
+              </div>
             </div>
           </article>
           ))}
@@ -167,9 +169,11 @@ export default async function BlogListPage({ searchParams }: { searchParams?: Pr
                       <Link key={t} href={{ pathname: '/blog', query: { tag: t } }} scroll={false} className="tagChip">{t}</Link>
                     ))}
                   </div>
-                  <Link href={`/blog/${post.slug}`} className="btnDark" aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
-                    Read more
-                  </Link>
+                  <div data-ws-track="BlogReadMoreButtonClick">
+                    <Link href={`/blog/${post.slug}`} className="btnDark" aria-label={`Read more: ${post.title}`} title={`Read more: ${post.title}`}>
+                      Read more
+                    </Link>
+                  </div>
                 </div>
               </article>
             ))}
@@ -207,10 +211,12 @@ export default async function BlogListPage({ searchParams }: { searchParams?: Pr
         <div className="preContainer">
           <h2 className="preTitle">Great conversations start with the right contact.</h2>
           <p className="preDesc">It&#39;s time to find yours.</p>
-          <a href="https://chromewebstore.google.com/detail/imhlnhlbiencamnbpigopiibddajimep" className="preCta" target="_blank" rel="noopener noreferrer">
-            <img className="preCtaIcon preCtaIconWeb" alt="Chrome" src="https://leadcontact.ai/images/google.svg" />
-            Add to Chrome - It&#39;s Free
-          </a>
+          <div data-ws-track="BlogFooterInstallPlugin">
+            <a href="https://chromewebstore.google.com/detail/imhlnhlbiencamnbpigopiibddajimep" className="preCta" target="_blank" rel="noopener noreferrer">
+              <img className="preCtaIcon preCtaIconWeb" alt="Chrome" src="https://leadcontact.ai/images/google.svg" />
+              Add to Chrome - It&#39;s Free
+            </a>
+          </div>
         </div>
       </section>
     </div>

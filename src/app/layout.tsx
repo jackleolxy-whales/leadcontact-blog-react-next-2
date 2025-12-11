@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -12,6 +13,11 @@ const montserrat = Montserrat({
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://leadcontact.ai";
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
@@ -20,9 +26,10 @@ export const metadata: Metadata = {
   },
   description: "邮箱查找与数据丰富的最佳实践与指南",
   alternates: { canonical: "/" },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   openGraph: {
     type: "website",
@@ -50,6 +57,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://app.leadcontact.ai/monitor-lc.js"
+          strategy="beforeInteractive"
+        />
+        <Script id="lc-init" strategy="afterInteractive">
+          {`(function(){
+            var w = window;
+            if (w.LCTrack && typeof w.LCTrack.init === 'function') {
+              w.LCTrack.init({ abbrev_name: 'LC Blog page' });
+            }
+          })();`}
+        </Script>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-Z57ZGZBS7X"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Z57ZGZBS7X');
+          `}
+        </Script>
+      </head>
       <body className={`${montserrat.variable} antialiased`}>
         <Header />
         {children}

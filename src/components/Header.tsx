@@ -67,10 +67,12 @@ export default function Header() {
             </div>
           </div>
           <div className={styles.right} ref={setRightEl}>
-            <a href="https://chromewebstore.google.com/detail/imhlnhlbiencamnbpigopiibddajimep" className={styles.cta} target="_blank" rel="noopener noreferrer" ref={setCtaEl}>
-              <img className={styles.ctaIcon} alt="Chrome" src="https://leadcontact.ai/images/google.svg" />
-              Add to Chrome
-            </a>
+            <div data-ws-track="BlogHeaderSiteHeadInstallPlugin">
+              <a href="https://chromewebstore.google.com/detail/imhlnhlbiencamnbpigopiibddajimep" className={styles.cta} target="_blank" rel="noopener noreferrer" ref={setCtaEl}>
+                <img className={styles.ctaIcon} alt="Chrome" src="https://leadcontact.ai/images/google.svg" />
+                Add to Chrome
+              </a>
+            </div>
             <button className={styles.menuBtn} onClick={() => setIsMenuOpen(v => !v)} aria-expanded={isMenuOpen ? 'true' : 'false'} aria-controls="mobile-drawer" aria-label="Open navigation">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4 7h16M4 12h16M4 17h16" stroke="#111827" strokeWidth="2" strokeLinecap="round"/>
@@ -87,10 +89,12 @@ export default function Header() {
             <a href="https://leadcontact.ai/pricing" className={styles.drawerItem} target="_blank" rel="noopener noreferrer">Pricing</a>
             <Link href="/blog" className={`${styles.drawerItem} ${isBlogActive ? styles.drawerItemActive : ''}`} onClick={() => setIsMenuOpen(false)}>Blog</Link>
             <div className={styles.drawerDivider}></div>
-            <a href="https://chromewebstore.google.com/detail/imhlnhlbiencamnbpigopiibddajimep" className={styles.drawerCta} target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
-              <img className={styles.ctaIcon} alt="Chrome" src="https://leadcontact.ai/images/google.svg" />
-              Add to Chrome
-            </a>
+            <div data-ws-track="BlogHeaderSiteHeadInstallPlugin">
+              <a href="https://chromewebstore.google.com/detail/imhlnhlbiencamnbpigopiibddajimep" className={styles.drawerCta} target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
+                <img className={styles.ctaIcon} alt="Chrome" src="https://leadcontact.ai/images/google.svg" />
+                Add to Chrome
+              </a>
+            </div>
             <button className={styles.drawerClose} onClick={() => setIsMenuOpen(false)} aria-label="Close navigation">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6 6l12 12M18 6l-12 12" stroke="#111827" strokeWidth="2" strokeLinecap="round"/>
